@@ -47,7 +47,7 @@ with open('data.json', 'r') as fp:
 def main(start=1, end=210):  #212-96-97-17
     """ Main function """
     en = OneUpload("https://irssv.1ka.si/")
-    en.login("verena.radin@gmail.com", "grbe1ilegalno")
+    en.login("", "")
     en.select_survey("Storitve SV: OS in DP")
     en.click_on_data()
     en.enable_edit()
